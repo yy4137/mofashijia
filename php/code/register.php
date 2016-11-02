@@ -1,10 +1,10 @@
 <?php
 
-    $name = $_GET["user_name"];
-    $email = $_GET["E-mail"];
-    $pwd = $_GET["user_pwd"];
-    $cpwd = $_GET["cpwd"];
-    $acode = $_GET["acode"];
+    $name = $_POST["user_name"];
+    $email = $_POST["E-mail"];
+    $pwd = $_POST["user_pwd"];
+    $cpwd = $_POST["confirm_pwd"];
+    $acode = $_POST["auth_code"];
     $mysql = new mysqli("localhost","root","","mofashijia");
     if($mysql->connect_errno){
       die($mysql->connect_errno);
@@ -16,7 +16,7 @@
     $result=$mysql->query($sqlstr);
     $a = ['state'=>$result];
     echo json_encode($a);
-    // var_dump($result);
-
+     var_dump($result);
+     header("location: http://127.0.0.1/mofashijia/html/html/load.html");
 
 ?>
