@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+td{
+	border: none;
+}
+img{border:0;}
+#content{width: 100%;overflow: hidden;}
+#content img{display: block;margin: 0 auto;float: left;}

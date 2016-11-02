@@ -1,0 +1,41 @@
+/*膜法世家体验店加盟*/
+body{background: url(../img/k_bg.png) repeat; }
+/*左边快捷边框*/
+#left{top: 150px;display: block;left: 100px;width: 140px;position: fixed;margin-top: 50px;z-index: 5001;}
+#company_nav{text-align: left;list-style: none;display: inline-block;line-height: 40px;}
+.company_li{margin-top: 10px;width: 135px;border-radius: 7px;}
+#company_nav a{font-size: 16px;height: 36px;border-left: 3px solid #1F5D33;color: #150d3b;padding: 2px 10px;}
+.company_li_active a{font-weight: bold;border-left: 5px solid #1F5D33;padding: 2px 10px;}
+.company_li:hover{width: 135px;margin-left: -10px;color: #3b0d0d;}
+#company_nav li:nth-child(1) a{color: #3b0d0d;}
+/*背景大图*/
+ul,li{list-style: none;}
+div{margin: 0 auto; padding: 0;}
+img{border: 0;vertical-align: middle;}
+.licheng-title{padding: 0 15%;overflow: hidden;height: 759px;overflow: hidden;}
+.licheng-title ul{background:url(../img/roll.png) no-repeat; text-align: center;overflow: hidden;}
+.licheng-title ul li{width: 14.28%; float: left; padding: 5px 0; cursor: pointer;}
+.i1{width: 12px;height: 12px;border-radius: 12px;display: block;background-color: #552308;
+margin: 0 auto; border: 1px solid rgba(85,35,8,0.4);box-shadow: 0 0 10px rgba(85,35,8,0.5);}
+.licheng-img{padding: 20px 0;}
+.img2{opacity: 1;width: 100%;}
+.video{height:320px;background: url(../img/video.jpg) no-repeat; background-size: 100% 100%;}
+/*联系我们*/
+.lianxi{width: 70%;margin: 20px auto 0 auto;color: #682a15;}
+.lianxi .left1{float: left;}
+.tel div.title,.wechat div.title,.qq div.title{display: inline-block;font-size: 20px;font-weight: bold;
+border:1px solid #805350;width: 100px;margin-bottom: 20px;}
+.tel div,.wechat div,.qq div{float: left;padding: 20px;}
+.tel div p,.wechat div p,.qq div p{margin-bottom:5px;}
+.lianxi .right1{float: right;}
+.lianxi .right1 ul li{margin-bottom: 10px;text-align: left;}
+.lianxi .right1 ul li .title{font-weight: bold;font-size: 16px;}
+.lianxi .right1 ul li input{border: 1px solid #805350;background-color: rgba(0, 0, 0, 0);
+padding:5px;width: 220px;}
+input[type="text"]{height: 20px;}
+/*.right1 ul li .huifang div{display:inline-block;padding: 5px;margin-right: 10px;}*/
+.huifang input{width: auto;margin: 0;}
+.words div.content {display: inline-block;padding: 5px;margin-right: 10px;width: 220px;
+height: 120px;border: 1px solid #805350;}
+.submit {display: inline-block;}
+.submit span {border: 1px solid #805350;border-radius: 5px;padding: 5px 10px;cursor: pointer;margin-top:1110px;}

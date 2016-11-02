@@ -1,0 +1,20 @@
+/*膜法动态*/
+ul,li{list-style: none;}
+li{display: inline-block;}
+div{margin: 0 auto;padding: 0;}
+#box{width: 1250px;height: 600px;position: relative;}
+#center{float: left;width: 1050px;padding-right: 13px;height: 600px;margin-left: 10%;
+}
+.activity{float: left;padding-left: 72px;clear: both;width: 950px;margin-left: -20px;}
+.slide_box{width: 972px;height: 470px;position: relative;top: 70px;}
+.sliders{width: 926px;height: 470px;float: left;}
+.ula{width: 11520px;position: relative;float:left;}
+.lia{width: 480px;display: block;float:left;position: relative;z-index: 999;}
+a{text-decoration: none;}
+img{display: block;margin: 0 auto;border: 0;}
+.left,.right{position: absolute;top: 50%;margin-top: -20px;width: 24px;height: 41px;
+display: block;text-indent: -9999px;overflow: hidden;}
+.left{background: url(../img/left.png) no-repeat;left: -40px;}
+.right{background: url(../img/right.png) no-repeat;right: -10px;}
+.left:hover{background-image: url(http://img04.taobaocdn.com/imgextra/i4/368609005/TB2S6YPbVXXXXXyXpXXXXXXXXXX_!!368609005.png);}
+.right:hover{background-image: url(http://img02.taobaocdn.com/imgextra/i2/368609005/TB2MlfObVXXXXX0XpXXXXXXXXXX_!!368609005.png);}

@@ -1,0 +1,26 @@
+ul,li{list-style: none;}
+*{margin: 0;padding: 0;}
+#con{margin:0 auto;}
+#con table{border-collapse: collapse;border-spacing: 0px;}
+.tabs_nav{width: 990px;position: absolute;z-index: 99;top:-119px;left:-3px;}
+img{vertical-align: middle;}
+/*罐子年份*/
+/*2005*/
+.menu_1{background: url(../img/2005.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 72px;}
+/*2006*/
+.menu_2{background: url(../img/2006.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 70px;margin-top: -21px;margin-left: 19px;}
+/*2012*/
+.menu_3{background: url(../img/2012.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 75px;margin-top: -40px;margin-left: 40px;}
+/*2013*/
+.menu_4{background: url(../img/2013.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 89px;margin-top: -22px;margin-left: 96px;}
+/*2014*/
+.menu_5{background: url(../img/2014.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 89px;margin-top: -50px;margin-left: 50px;}
+/*2015*/
+.menu_6{background: url(../img/2015.png) no-repeat scroll 0 0 transparent;cursor: pointer;
+float: left;height: 90px;overflow: hidden;width: 103px;margin-top: -92px;margin-left: 34px;}
+#div1{width: 990px;height: 420px;overflow: hidden;}

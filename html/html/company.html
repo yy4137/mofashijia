@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>关于我们</title>
+</head>
+ <link rel="stylesheet" type="text/css" href="../css/navbar.css"/>
+ <link rel="stylesheet" href="../css/company.css" />
+<body>
+    <!-- 整个页面大框 -->
+     <div id="wrap">
+        <!-- 顶部导航 -->
+        <!--灰白色导航条-->
+        <div id="login" style="height: 28px;margin: 0 auto; line-height: 28px;background:rgb(249,249,249);overflow: hidden;">
+           <div class="login_box">
+              <span style="float:left">欢迎来到膜法世家官方网站</span>
+              <span class="right">
+                  <a href="load.html">登录</a>
+                  |
+                  <a href="register.html">注册</a>
+                  |
+                  <a class="oder" title="查看购物车" href="#">我的购物车</a>
+                  |
+                  <a href="#">收藏本站</a>
+                  |
+                  <a href="#">资讯订阅</a>
+              </span>
+           </div>
+        </div>
+        <!--导航logo-->
+        <div id="navbar" style="border: 0px solid red;height: 142px;background: #fff;">
+			<div style="width: 1024px;height: 102px;">
+			      <div style="float: left;">
+			      	 <a href="index.php" style="overflow: hidden;display: block;margin-top: 20px;"></a>
+			      	 <img src="../img/TB2ieNlfp368609005.png" alt="膜法世家官网" height="60px"/>
+			      </div>
+			      <div style="float: right;">
+			      	 <div class="box">
+			      	 	<form id="form1" action="all_goods.php" method="post">
+			      	 		<input class="input1" type="text" value="" maxlength="40" placeholder="搜索您需要的商品" name="title"/ >
+			      	 		<div class="glass">
+			      	 			<img src="../img/searchlogo.png" style="margin-top: 10px;"/>
+			      	 		</div>
+			      	 	</form>
+			      	 </div>
+			      	  <div style="float: right;">
+			      	  	   <img src="../img/368609005.jpg" style="margin-top:15px;width: 200px;" />
+			      	  </div>
+			      </div>
+			</div>
+			<!--绿色导航条-->
+			<div style="height: 40px;background: #0d3b1c;">
+				<div id="green_box">
+					<!--防伪查询-->
+					<div id="select">
+						<a href="TYPE-R.php" style="color: #fff;text-decoration: none;">防伪查询</a></div>
+					<!--文字-->
+					<ul id="navgreen">
+						<li class="menu-item">
+							<a href="index.html">膜法首页</a>
+						</li>
+						<li class="menu-item">
+							<a href="shop_index.php">官方商城</a>
+						</li>
+						<li class="menu-item menu-item-display" >
+							<a href="all_goods.php">所有商品</a>
+							<ul class="sub-menu-cat" style="display: none;height:0;" >
+								<li class="menu-item-cat menu-item-cat-ti-1">
+									<a>产品分类</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-ti-2">
+									<a>功效分类</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-ti-2">
+									<a>全膜护理</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-ti-2">
+									<a>基础护理</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-ti-2">
+									<a>肌肤类型</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">绿豆清肌系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">祛痘淡印</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">水洗面膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">面膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">干性</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">樱桃补水系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">美白亮肤</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">面膜贴</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">眼部护理</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">油性</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">金沙紧致系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">补水保湿</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">眼膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">洁面</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">中性</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">白松露亮白系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">清爽控油</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">唇膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">爽肤</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">混合性</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">黑面膜吸黑系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">弹力紧致</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">手足膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">精华</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">熟龄性</a>
+								</li>
+								<!------->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">面膜贴系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">修复舒缓</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">颈膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">乳液</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">痘痘肌</a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">菩提水润系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">熟龄修复</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">体膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">面霜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">阿纳斯系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">隔离防晒</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">发膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">卸妆</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">冰川泥系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">祛黑眼圈</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">鼻膜</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">雪参亮肤系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<li class=" menu-item-cat-2 "></li>
+								<li class=" menu-item-cat-2 "></li>
+								<li class=" menu-item-cat-2 "></li>
+								<!---->
+								<li class="menu-item-cat menu-item-cat-1 menu-item-cat-1-6 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id=">睡莲系列</a>
+								</li>
+								<li class="menu-item-cat menu-item-cat-2 ">
+									<!--缺少id-->
+									<a href="all_goods.php?id="></a>
+								</li>
+								<li class=" menu-item-cat-2 "></li>
+								<li class=" menu-item-cat-2 "></li>
+								<li class=" menu-item-cat-2 "></li>
+								<!---->
+								<li class=" menu-item-cat-bt"></li>
+
+							</ul>
+						</li>
+						<li class="menu-item" id="mfpp">
+							<a >膜法品牌</a>
+							<ul class="sub-menu" style="display: none;" id="ss">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
+									<a href="mofastory.html">膜法故事</a>
+								</li>
+								<li class="menu-item-type-taxonomy menu-item-object-category">
+									<a href="mofa_nurse.html">膜护理之旅</a>
+								</li>
+								<li class="menu-item-type-taxonomy menu-item-object-category">
+									<a href="trademark.html">品牌历程</a>
+								</li>
+								<li class="menu-item-type-taxonomy menu-item-object-category">
+									<a href="honor.html">品牌荣誉</a>
+								</li>
+								<li class="menu-item-type-taxonomy menu-item-object-category">
+									<a href="dynamic.html">膜法动态</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item" id="aboutOurs">
+							<a href="company.html">关于我们</a>
+							<ul class="sub_menuO sub-menu" style="display: none;" id="dd">
+								<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+									<a href="#company">公司简介</a>
+								</li>
+								<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+									<a href="#recruit">加入悦耳</a>
+								</li>
+								<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+									<a href="#contact">联系我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#outline company.html">代理加盟</a>
+						</li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category" style="width:170px;">
+ 					      <a href="K_Point.html">膜法体验店加盟</a>
+ 			     </li>
+					</ul>
+
+				</div>
+			</div>
+        </div>
+        <!-- 中间内容-->
+        <div id="con" style="display: block;width: 990px;overflow-x: hidden;"scroll="no">
+			<div id="cnt" style="width: 990px;">
+				<!--左边快捷栏-->
+				<div id="left">
+					<ul id="company_nav">
+						<li class="company_li company_li_active">
+							<a href="#company">公司简介</a>
+						</li>
+						<li class="company_li">
+							<a href="#recruit">加入悦目</a>
+						</li>
+						<li class="company_li">
+							<a href="#contact">联系我们</a>
+						</li>
+						<li class="company_li">
+							<a href="#outline">代理加盟</a>
+						</li>
+						<li class="company_li">
+							<a href="#">回到顶部</a>
+						</li>
+					</ul>
+				</div>
+				<div style="float: left;width: 290px;"></div>
+				<div id="right">
+					<a id="company"></a>
+					<p style="text-align: center;font-size: 24px;margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #1c561b;">
+						<span style="color: #1c561b;">公司简介</span>
+					</p>
+					<p>
+						<span style="font-size: 18px;color: #1c561b;">走进悦目</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>上海悦目化妆品有限公司，是一家集产品研发、生产、包装配套、销售与服务为一体化的科技创新公司。</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>历经10年发展，目前旗下拥有膜法世家、食养媄肌、沁香百萃等知名品牌。其中由著名红星金莎代言的“膜法世家”，已连续5年保持200%以上的年销售增长速度，长期位居淘宝平台化妆品类目销售地位的前3位，并连续3年保持买家百分百好评殊荣。</span>
+				    </p>
+				    <p>
+				    	   <span style="font-size: 18px;color: #1c561b;">国际品质 悦目之本</span>
+				    </p>
+				    <p style="text-indent: 2em;">
+				    	   <span>
+				    	   	上海悦目化妆品有限公司总部位于中国广州， 拥有在国内率先按照欧盟GMPC万级净化生产车间标准兴建的配料、乳化、静置、洗瓶、灌装、包装车间，整个生产流程完全做到零接触、无菌操作。
+				    	   </span>
+				    	</p>
+				    	<img class="com_img" src="../img/生产车间.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	 优良的产品质量赢得了业内一致好评，公司先后被授予“中国质量检验协会打假扶优重点保护企业”、“全国质量信得过产品、全国质量服务消费者满意企业”等多项荣誉。
+				    	   </span>
+				    	</p>
+				    	<p>
+				    		<span style="font-size: 18px;color: #1c561b;">顶尖研发 接轨国际</span>
+				    	</p>
+				    	 <p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  悦目拥有一支国际顶尖级技术的研发团队。汇集了多国医学、皮肤学、生物科技等领域的研发机构，同时和国内多家知名大学有着长期的紧密合作关系。
+				    	   </span>
+				    	</p>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  公司不惜花巨资引进一流的原料包材、一流的研发技术、一流的生产管理，打造终端强势品牌。
+				    	   </span>
+				    	</p>
+				    	<p>
+				    		<span style="font-size: 18px;color: #1c561b;">庞大网络 全渠道覆盖</span>
+				    	</p>
+				    	<img class="com_img" src="../img/商场.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  悦目目前已拥有全渠道覆盖的庞大销售网络，在电商渠道扩张的同时，全面介入直营店、商场、超市渠道。公司凭借优良的品质、诚信的经营、完善的服务体系，在线上市场，产品基本覆盖全部独立B2C平台。在线下市场，建立起遍布全国30多家直营体验馆和大、中、小城市、乡镇市场的成熟庞大销售网络，有近100个代理商，20000个特约零售网点，十万多名相关从业人员。
+				    	   </span>
+				    	</p>
+				    	<img class="com_img" src="../img/膜法世家体验店.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  至此，悦目在电商、直营店、零售店、商场、超市渠道齐头并进，相辅相成，这也标志着悦目的发展又步入一个全新的高度。
+				    	   </span>
+				    	</p>
+				    	<p>
+				    		<span style="font-size: 18px;color: #1c561b;">携手顶尖媒体 布局国际市场</span>
+				    	</p>
+				    	<img class="com_img" src="../img/签约公司.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  2013年上海悦目与加拿大Ironwood Clay Company Inc公司实现跨国商业、文化合作。
+				    	   </span>
+				    	</p>
+				    	 <p style="text-indent: 2em;">
+				    	   <span>
+				    	   	 2014年，膜法世家接棒“蒙牛”独家冠名国内知名音乐榜单“中国音乐联播榜”，并与中国喜剧话剧领军品牌“开心麻花”跨界合作。
+				    	   </span>
+				    	</p>
+				    	 <p style="text-indent: 2em;">
+				    	   <span>
+				    	   	 2014年中至今与湖南卫视达成战略合作，通过高空媒体全面塑造膜法世家品牌形象与行业影响力，强化用户认知及公信度。
+				    	   </span>
+				    	</p>
+				    	 <p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  2015年与旅游卫视达成年度合作，联合推出定制产品，在跨界营销上走出了重要一步。
+				    	   </span>
+				    	</p>
+				    	<p>
+				    		<span style="font-size: 18px;color: #1c561b;">精干人才 强大团队</span>
+				    	</p>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  今日悦目，一个承载着无数光荣与梦想的企业，将继续秉承“开拓创新、坚持不懈”的精神，以更开阔的胸襟、更坚定的信念、更清晰的思路、更稳健的步伐正奋力前行，不断超越，成就未来！
+				    	   </span>
+				    	</p>
+				    	<img class="com_img" src="../img/膜法世家.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  悦目在重视产品质量的同时也重视人才的吸引。公司恪守：“人是第一资本，也是第一生产力，企业的竞争就是人才的竞争”理念，同时渗透“开心工作、快乐生活”的企业文化，以宽松、自由、民主、平等的工作氛围广泛吸纳优秀人才。
+				    	   </span>
+				    	</p>
+				    	<img class="com_img" src="../img/休息室.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  目前公司拥有500多名员工，通过一整套的人才培训计划，将人才放到能最大化发挥其个人能力的地方，团队在激烈的市场竞争中所向披靡，迅速壮大，并稳步发展。
+				    	   </span>
+				    	</p>
+				    	<img class="com_img" src="../img/办公室.jpg" width="91%"/>
+				    	<p style="text-indent: 2em;">
+				    	   <span>
+				    	   	  同时在每位员工身上注入悦目的服务精神，化作个人意识，让服务更细致、更周全，不断提高客户满意度和忠诚度，并赢得更多的客户。公司追求企业价值与个人价值的和谐统一，实现企业与员工的双赢，精诚合作，铸就团队更强的亲和力和凝聚力。
+				    	   </span>
+				    	</p>
+				    	<p>
+				    		<span style="font-size: 18px;">完善的福利待遇</span>
+				    	</p>
+				    	<p>
+				    		<span>1、免费提供住宿；</span>
+				    	</p>
+				    	<p>
+				    		<span>2、享受全勤奖</span>
+				    	</p>
+				    	<p>
+				    		<span>3、按规定享受养老、工伤、生育、失业、医疗社会保险；</span>
+				    	</p>
+				    	<p>
+				    		<span>4、每月享有1天带薪病假； </span>
+				    	</p>
+				    	 <p>
+				    		<span>5、每年享有1天带薪生日假；  </span>
+				    	</p>
+				    	<p>
+				    		<span>6、每年享有5天带薪年假；  </span>
+				    	</p>
+				    	<p>
+				    		<span>7、每年三八妇女节女员工享有半天有薪假期  </span>
+				    	</p>
+				    	<!--加入悦目-->
+				    	<a id="recruit"></a>
+				    	<p style="text-align: center;font-size: 24px;margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #1c561b;">
+						<span style="color: #1c561b;">加入悦目</span>
+					</p>
+					<p>
+						<span style="font-size: 18px;color: #1c561b;">包装设计主管</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>岗位职责：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、能独立完成新产品包装创意提案；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、理解各产品包装设计的需求意图和标准，保时保量保质完成包装的设计制作；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、管理包装设计文件的分类归档管理；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>4、管理下属并完成上级交办的其它工作</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>任职要求：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、美术、平面设计相关专业专科及以上学历；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、3年以上产品包装设计、印刷设计等相关经验（需提供作品），有化妆品设计经验者优先；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、熟练使用各种设计的软件 ，了解纸张、包材、印刷工艺</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>4、热爱本职工作，工作细心、责任心强；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>5、具有较强的理解、领悟能力、工作协调能力和创造力。</span>
+					</p>
+					<div style="width: 100%;text-align: center;margin-top: 20px;">
+						<input  onclick="" style="font-size: 18px;width: 120px;height: 26px;color: #FFFFFF;background-color:#1c561b;border: #1c561b;border-radius: 5px;" value="我要申请" type="button"/>
+					</div>
+					<!--直营店长-->
+					<p style="margin-top: 20px;">
+						<span style="font-size: 18px;color: #1c561b;">直营店长</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>岗位职责：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、现场接待新客，做好客人登记，建立客人档案；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、协调直营店内部员工的关系；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、拓展及维护顾客，做好顾客管理；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>4、协助完成部门计划业绩和管理工作；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>5、店面日常经营管理。</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>任职要求：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、有两年以上店务管理经验，专业知识扎实；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、良好的职业道德，有月度季度促销经验，有培训经验；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、有团队意识、沟通能力、亲和力强、抗压能力强。</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>我司在广佛各区皆有直营店，此岗位可根据个人意愿来安排上班地点！ 此岗位设立级别工资，晋升平台公正公平透明，公司为每位员工的发展提供广阔的平台从见习-初级-中级-资深-店助-店长-督导-副经理-经理-总监</span>
+					</p>
+					<div style="width: 100%;text-align: center;margin-top: 20px;">
+						<input  onclick="" style="font-size: 18px;width: 120px;height: 26px;color: #FFFFFF;background-color:#1c561b;border: #1c561b;border-radius: 5px;" value="我要申请" type="button"/>
+					</div>
+					<!--导师培训-->
+					<p style="margin-top: 20px;">
+						<span style="font-size: 18px;color: #1c561b;">导师培训</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>岗位职责：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、对经销商及导购进行美容及产品知识教育的培训；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、良好的语言表达能力和组织管理能力；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、负责岗位所属区域内代理公司一线销售人员的各类培训授课工作（主要包括产品知识及推广、销售技巧、形象礼仪及企业文化等各方面培训）；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>4、负责与代理商一起确定门店促销活动，完成相应的准备工作和现场督导，以及提交促销活动报告；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>5、竞品信息市场调查；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>6、完成上级交付的任务。</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>任职要求：</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>1、对时尚、潮流有丰富的洞察力；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>2、性格外向，形象气质佳；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>3、亲和力好，口齿清晰，普通话标准；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>4、能够独立全方位实施，开展大型培训；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>5、能适应长期出差；</span>
+					</p>
+					<p style="text-indent: 3em; color: #1c561b;">
+						<span>6、有团队合作精神。</span>
+					</p>
+					<div style="width: 100%;text-align: center;margin-top: 20px;">
+						<input  onclick="" style="font-size: 18px;width: 120px;height: 26px;color: #FFFFFF;background-color:#1c561b;border: #1c561b;border-radius: 5px;" value="我要申请" type="button"/>
+					</div>
+					<!--联系我们-->
+					<a id="contact"></a>
+				    	<p style="text-align: center;font-size: 24px;margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #1c561b;">
+						<span style="color: #1c561b;">联系我们</span>
+					</p>
+					<p style="margin-top: 20px;">
+						<span style="font-size: 18px;color: #1c561b;">公司总部</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>办公地址：广州市白云区黄边南路47号永力商贸楼A栋A区4楼</span>
+					</p>
+					<p style="text-indent: 2em;">
+						<span>服务电话：400-878-1908 (工作日:9:00-18:00,节假日不值班)</span>
+					</p>
+					<p style="text-indent: 3em;">
+						<span>服务电话引导：</span>
+					</p>
+					<div style="float: right;margin-right: 100px;">
+						<p style="margin-top: 0;margin-bottom: 0;">
+							<img style="margin-left: 20px;" src="../img/mfsjcode_min.jpg" />
+						</p>
+						<p style="text-indent: 4em;margin-bottom: 0;margin-top: 0;">
+							<span>官方微信：膜法世家</span>
+						</p>
+					</div>
+						<p style="text-indent: 4em; color: #1c561b;">
+						   <span>转1：服务与投诉</span>
+					    </p>
+					    <p style="text-indent: 4em; color: #1c561b;">
+						   <span>转3：售后服务</span>
+					    </p>
+					    <p style="text-indent: 4em; color: #1c561b;">
+						   <span>转4：代理加盟</span>
+					    </p>
+					    <p style="text-indent: 4em; color: #1c561b;">
+						  <span>转5：网络分销</span>
+					    </p>
+					     <p style="text-indent: 4em; color: #1c561b;">
+						  <span>转6：其他疑问</span>
+					    </p>
+					     <p style="text-indent: 2em;">
+						  <span>市场合作：020-28980840</span>
+					    </p>
+					     <p style="text-indent: 2em;">
+						  <span>官方微博：@膜法世家</span>
+					    </p>
+					   <!--代理加盟-->
+					<a id="outline"></a>
+				    	<p style="text-align: center;font-size: 24px;margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #1c561b;">
+						<span style="color: #1c561b;">代理加盟</span>
+					</p>
+					<p>
+						<span style="font-size: 18px;color: #1c561b;">微商咨询</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>电话：020-28941382</span>
+					</p>
+					<p style="text-indent: 2em;margin-bottom: 0;">
+						  <span>微信：膜法世家微营销</span>
+					</p>
+					<p style="margin-top: 0;">
+						<img style="margin-left: 20px;" src="../img/wyxcode_min.png" />
+					</p>
+					<p style="margin-top: 20px;">
+						<span style="font-size: 18px;color: #1c561b;">代理加盟</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>电话：020-28927680</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>QQ：见右侧加盟客服栏</span>
+					</p>
+					<div style="float: right; margin-right: 150px;">
+						<p style="margin-top: 0;margin-bottom: 0;">
+							<img style="margin-left: 20px;" src="../img/zycode_min.jpg" />
+						</p>
+						<p style="text-indent: 3em;margin-bottom: 0;margin-top: 0;">
+							<span>微信：膜法世家体验馆</span>
+						</p>
+					</div>
+					<p style="margin-top: 20px;">
+						<span style="font-size: 18px;color: #1c561b;">直营加盟</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>咨询热线：020-22073911   020-29040619</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>杨小姐:18944757243</span>
+					</p>
+					<p style="text-indent: 2em;">
+						  <span>刘小姐:18998808167</span>
+					</p>
+					<p style="text-indent: 2em;margin-bottom: 40px;">
+						  <span>林小姐:18138925039</span>
+					</p>
+				</div>
+			</div>
+        </div>
+        <!--  底部结尾-->
+         <div id="bottomNav">
+         	<div>
+         		<img src="../img/bottom.jpg" width="990" height="165" position: "relative"/>
+         		<div class="footer_declare">
+         			<a href="链接跳转" target="_blank" title="站长统计">
+         				<img src="../img/pic.gif" vspace="0" border="0" hspace="0"/>
+         			</a>
+         		</div>
+         	</div>
+         </div>
+         <div class="clearfloat"></div>
+         <!-- 右边快捷栏 -->
+         <!-- 客服 -->
+         <div class="float_box position_right" id="kef" style="margin-top: 50px; top: 140px; display: block;">
+              <img src="../img/客服.png" alt="" width="" height="">
+         </div>
+         <div class="float_box position_right" style="display:none;text-align:center;margin-right: -5px; width: 150px; height: 145px; z-index: 99999; margin-top: 30px; background: rgb(121, 186, 130) none repeat scroll 0% 0%; border-radius: 8px; top: 150px;" id="divQQbox">
+           <div>
+             <p><span style="font-size:20px;color:#ffffff;">联系客服</span></p>
+             <div style="width:94%;height:100px;background:#ffffff;border-radius:4px;">
+                 <div style="height:10px;"></div>
+                 <div style="margin-top:0px;">
+                      <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2102938657&amp;site=qq&amp;menu=yes" title="售前/售后">
+                         <img id="hdkf1" style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                         <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> QQ客服</span>
+                       </a>
+                 </div>
+                 <div style="margin-top:10px;width:90%;border-top: 1px solid #79ba82; ">9:00-18:00(工作日)
+                       <br>节假日不值班
+                 </div>
+             </div>
+         </div>
+         </div>
+         <!-- 加盟 -->
+         <div class="float_box position_right" style="margin-top: 140px; top: 130px; display: block;" id="jm">
+              <img src="https://img.alicdn.com/imgextra/i2/368609005/TB2xHXCfpXXXXcmXXXXXXXXXXXX_!!368609005.png" alt="" width="" height="">
+         </div>
+         <div class="float_box position_right" id="jiam" style="display:none;text-align:center;margin-top: 80px; width: 150px; height: 189px;  margin-right: -5px; z-index: 99999; background: rgb(121, 186, 130) none repeat scroll 0% 0%; border-radius: 8px; top: 150px;">
+            <div>
+              <p><span style="font-size:20px;color:#ffffff;">加盟咨询</span></p>
+              <div style="width:94%;height:145px;background:#ffffff;border-radius:4px;">
+                  <div style="height:10px;"></div>
+                  <div style="margin-top:10px;">
+                       <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=11701679&amp;site=qq&amp;menu=yes" target="_blank">
+                         <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                         <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟1 </span>
+                       </a>
+                 </div>
+                <div style="margin-top:10px;">
+                     <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2372993259&amp;site=qq&amp;menu=yes" target="_blank">
+                        <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                        <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟2 </span>
+                     </a>
+               </div>
+              <div style="margin-top:10px;">
+                  <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3504405624&amp;site=qq&amp;menu=yes" target="_blank">
+                     <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                     <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟3 </span>
+                  </a>
+              </div>
+              <div style="margin-top:10px;">
+                  <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3402383262&amp;site=qq&amp;menu=yes" target="_blank">
+                    <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                    <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟4 </span>
+                 </a>
+             </div>
+           </div>
+         </div>
+      </div>
+      <!-- 意见反馈 -->
+      <div class="float_box position_right" style="margin-top:150px;" id="yjfk">
+         <a href="adviance.php">
+            <img src="../img/意见反馈.png" alt="" width="" height="">
+         </a>
+     </div>
+     <!-- 膜法微商 -->
+     <div class="float_box position_right" style="margin-top: 230px; display: block;" id="code">
+        <a href="javascript:">
+           <img src="../img/膜法微商.png" alt="" width="" height="">
+        </a>
+     </div>
+     <div class="float_box position_right" style=" display:none;margin-top: 126px; margin-right: 24px; " id="coded">
+        <a href="javascript:">
+           <img src="../img/code.jpg" alt="" width="168px" height="180px">
+        </a>
+     </div>
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+     <script type="text/javascript" src="../js/remove_all_goods.js" ></script>
+
+     <script type="text/javascript">
+
+
+     </script>
+
+</body>
+</html>

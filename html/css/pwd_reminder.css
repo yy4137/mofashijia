@@ -1,0 +1,15 @@
+input{outline: none;}
+#content{width: 960px;padding: 0;overflow: hidden;margin-top: 8px;height: 435px;}
+#left{height:163px;width: 140px;position: fixed;z-index: 5004;display: block;top: 150px;margin-top: 50px;}
+#user_nav{display: inline-block;line-height: 40px;}
+.user_li{margin-top: 10px;width: 112px;background: #1F5D33;border-radius: 7px;margin-left: 50px;}
+.user_li a{color: #FFFFFF;padding: 2px 24px;font-size: 16px;height: 36px;}
+#right{width: 900px;margin: 0 auto;}
+.body_by{color: #784a19;font-weight: bold;height: 0;padding: 0;width: 100%;margin-left: -30px;}
+.zcbiao{width: 719px;height: auto;padding: 10px;overflow: hidden;clear: left;}
+.font_hong2{color: #7c522a;font-size: 14px;font-weight: bold;}
+/*用户名*/
+.pihu{width: 440px;padding: 10px;overflow: hidden;}
+#user_name{margin-top: 50px;margin-left: 80px;height: 28px;width: 250px;}
+#E-mail{margin-top: 12px;margin-left: 80px;height: 28px;width: 250px;}
+
