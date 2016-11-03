@@ -11,5 +11,4 @@ input{outline: none;}
 /*用户名*/
 .pihu{width: 440px;padding: 10px;overflow: hidden;}
 #user_name{margin-top: 50px;margin-left: 80px;height: 28px;width: 250px;}
-#E-mail{margin-top: 12px;margin-left: 80px;height: 28px;width: 250px;}
-
+#E_mail{margin-top: 12px;margin-left: 80px;height: 28px;width: 250px;}

@@ -2,7 +2,7 @@
 (function() {
     $(".p_submit").click(function(){
       var name1 =document.querySelector("#user_name").value;
-      var email = document.querySelector("#E-mail").value;
+      var email = document.querySelector("#E_mail").value;
       var pwd=document.querySelector("#user_pwd").value;
       var cpwd = document.querySelector("#confirm_pwd").value;
       var acode = document.querySelector("#auth_code").value;
