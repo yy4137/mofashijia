@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>注册</title>
+  <title>找回密码</title>
+  <style>
+  .box h3 span{
+    float: left;background: url(../img/user_bg.gif) no-repeat 0px -570px;
+    width: auto;height: 33px;line-height: 33px;text-align: left;font-weight: bold;
+    color: #7c522a;padding-left: 12px;
+  }
+  .RelaArticle a, .alone {
+    background: url(../img/user_bg.gif) no-repeat 0px -170px;
+    padding: 0px 0px 0px 10px;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+  .RelaArticle a:hover {
+    background: url(../img/user_bg.gif) no-repeat 0px -170px;
+    padding: 0px 0px 0px 10px;
+    color: #ff6600;
+    text-decoration: none;
+}
+  p{
+   margin: 8px 0 8px 0;
+   line-height: 1.5em;
+  }
+
+
+  </style>
 </head>
  <link rel="stylesheet" type="text/css" href="../css/navbar.css"/>
- <link rel="stylesheet" type="text/css" href="../css/register.css" />
+ <link rel="stylesheet" type="text/css" href="../css/pwd_reminder.css" />
 <body>
     <!-- 整个页面大框 -->
      <div id="wrap">
@@ -39,7 +64,6 @@
 			      <div style="float: right;">
 			      	 <div class="box">
 			      	 	<form id="form1" action="all_goods.php" method="post">
-                  <!--  -->
 			      	 		<input class="input1" type="text" value="" maxlength="40" placeholder="搜索您需要的商品" name="title"/ >
 			      	 		<div class="glass">
 			      	 			<img src="../img/searchlogo.png" style="margin-top: 10px;"/>
@@ -56,8 +80,7 @@
 				<div id="green_box">
 					<!--防伪查询-->
 					<div id="select">
-						<a href="TYPE-R.php" style="color: #fff;text-decoration: none;">防伪查询</a>
-					</div>
+						<a href="TYPE-R.php" style="color: #fff;text-decoration: none;">防伪查询</a></div>
 					<!--文字-->
 					<ul id="navgreen">
 						<li class="menu-item">
@@ -68,7 +91,7 @@
 						</li>
 						<li class="menu-item menu-item-display" >
 							<a href="all_goods.php">所有商品</a>
-							<ul class="sub-menu-cat" style="display: none;height:0" >
+							<ul class="sub-menu-cat" style="display: none;height:0;" >
 								<li class="menu-item-cat menu-item-cat-ti-1">
 									<a>产品分类</a>
 								</li>
@@ -304,20 +327,20 @@
 						</li>
 						<li class="menu-item" id="mfpp">
 							<a >膜法品牌</a>
-							<ul class="sub-menu " style="display: none;" id="ss">
-								<li class=" menu-item-type-taxonomy menu-item-object-category">
+							<ul class="sub-menu" style="display: none;" id="ss">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
 									<a href="mofastory.html">膜法故事</a>
 								</li>
-								<li class=" menu-item-type-taxonomy menu-item-object-category">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
 									<a href="mofa_nurse.html">膜护理之旅</a>
 								</li>
-								<li class=" menu-item-type-taxonomy menu-item-object-category">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
 									<a href="trademark.html">品牌历程</a>
 								</li>
-								<li class=" menu-item-type-taxonomy menu-item-object-category">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
 									<a href="honor.html">品牌荣誉</a>
 								</li>
-								<li class=" menu-item-type-taxonomy menu-item-object-category">
+								<li class="menu-item-type-taxonomy menu-item-object-category">
 									<a href="dynamic.html">膜法动态</a>
 								</li>
 							</ul>
@@ -348,66 +371,22 @@
 			</div>
         </div>
         <!-- 中间内容-->
-        <div id="content">
-            <div id="left">
-               <ul id="user_nav">
-                  <li class="user_li"><a href="load.html">会员登录</a></li>
-                  <li class="user_li"><a href="register.html">会员注册</a></li>
-                  <li class="user_li"><a href="pwd_reminder.html">找回密码</a></li>
-               </ul>
-            </div>
-            <div id="right">
-            	<!-- <div class="body_by"></div>-->
-            	<div class="zcbiao">
-            		<div style="margin-left: 100px;margin-top: 30px;width: 520px;border: 0;height: 385px;">
-            		<div style="width: 520px;">
-            			<div class="font_hong2">
-            				<font size="5" color="#5b1a08"face="黑体">注册膜法世家会员</font>
-            				<hr color="#5b1a08" />
-            			</div>
-            		<div id="kongge" style="width: 520px;height: 8px;"><!--空格--></div>
-             <form class="" action="../../php/code/register.php" method="post" enctype="multipart/form-data">
-            	<!--用户名-->
-            		 <p class="p1">
-                  <label for="user_name" id="user_nameLabel" class="pass-label user_name" >用户名:</label>
-                  <input id="user_name" class="inp" type="text" name="user_name" value="">
-                  <span class="p_span">*</span>
-             	 </p>
-              <!--邮箱-->
-              <p class="p1">
-                  <label for="E_mail" id="E-mailLabel" class="pass-label E_mail">E-mail:</label>
-                  <input id="E_mail" class="inp" type="text" name="E_mail" value="">
-                  <span class="p_span">*</span>
-                  <p class="p_remind">(建议使用QQ邮箱，其他邮箱亦可)</p>
-              </p>
-              <!--密码-->
-              <p class="p1">
-                  <label for="user_pwd" id="user_pwdLabel" class="pass-label user_pwd">密码:</label>
-                  <input id="user_pwd" class="inp" type="text" name="user_pwd" value="">
-                  <span class="p_span">*</span>
-              </p>
-              <!--确认密码-->
-              <p class="p1">
-                  <label for="confirm_pwd" id="confirm_pwdLabel" class="pass-label confirm_pwd">确认密码:</label>
-                  <input id="confirm_pwd" class="inp" type="text" name="confirm_pwd" value="">
-                  <span class="p_span">*</span>
-                  <p class="p_remind">(密码请设置6-16位数字与字母，字母不分大小写)</p>
-              </p>
-              <!--验证码-->
-              <p class="p1">
-                  <label for="auth_code" id="auth_codeLabel" class="pass-label auth_code">验证码:</label>
-                  <input id="auth_code" class="inp" type="text" name="auth_code" value="">
-                  <span class="p_span">*</span>
-              </p>
-              <!--注册按钮-->
-              <p class="p_submit">
-                <input class="submit" type="image" name="submit" src="../img/submit.jpg"/>
-              </p>
+        <div id="content5" style="margin-top:10px;width:960px;overflow:hidden;padding:0px 20px;">
+          <div class="block" style="width:900px;">
+             <div class="box" style="padding-bottom:2px;">
+                <div class="box_1">
+                    <h3 style="height:33px;line-height:33px;font-size:12px;text-align:right;padding:0 12px;font-weight:100;"><span>系统信息</span></h3>
+                     <div class="boxCenterList RelaArticle" align="center" style="padding:8px;">
+                         <div style="margin:20px auto;">
+                           <p style="font-size: 14px; font-weight:bold; color: red;">您填写的用户名与电子邮件地址不匹配，请重新输入！</p>
+                           <div class="blank"></div>
+                           <p><a href="pwd_reminder.html">返回上一页</a></p>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          </div>
 
-            	</div>
-            </div>
-			</div>
-            </div>
         </div>
         <!--  底部结尾-->
          <div id="bottomNav">
@@ -428,20 +407,20 @@
          </div>
          <div class="float_box position_right" style="display:none;text-align:center;margin-right: -5px; width: 150px; height: 145px; z-index: 99999; margin-top: 30px; background: rgb(121, 186, 130) none repeat scroll 0% 0%; border-radius: 8px; top: 150px;" id="divQQbox">
            <div>
-		          <p><span style="font-size:20px;color:#ffffff;">联系客服</span></p>
-		          <div style="width:94%;height:100px;background:#ffffff;border-radius:4px;">
-			            <div style="height:10px;"></div>
-			            <div style="margin-top:0px;">
-				               <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2102938657&amp;site=qq&amp;menu=yes" title="售前/售后">
-					                <img id="hdkf1" style="vertical-align:middle;" src="../img/qq.png" width="20px">
-					                <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> QQ客服</span>
-				                </a>
-			            </div>
-			            <div style="margin-top:10px;width:90%;border-top: 1px solid #79ba82; ">9:00-18:00(工作日)
-				                <br>节假日不值班
-			            </div>
-		          </div>
-	        </div>
+             <p><span style="font-size:20px;color:#ffffff;">联系客服</span></p>
+             <div style="width:94%;height:100px;background:#ffffff;border-radius:4px;">
+                 <div style="height:10px;"></div>
+                 <div style="margin-top:0px;">
+                      <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2102938657&amp;site=qq&amp;menu=yes" title="售前/售后">
+                         <img id="hdkf1" style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                         <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> QQ客服</span>
+                       </a>
+                 </div>
+                 <div style="margin-top:10px;width:90%;border-top: 1px solid #79ba82; ">9:00-18:00(工作日)
+                       <br>节假日不值班
+                 </div>
+             </div>
+         </div>
          </div>
          <!-- 加盟 -->
          <div class="float_box position_right" style="margin-top: 140px; top: 130px; display: block;" id="jm">
@@ -449,47 +428,47 @@
          </div>
          <div class="float_box position_right" id="jiam" style="display:none;text-align:center;margin-top: 80px; width: 150px; height: 189px;  margin-right: -5px; z-index: 99999; background: rgb(121, 186, 130) none repeat scroll 0% 0%; border-radius: 8px; top: 150px;">
             <div>
-		           <p><span style="font-size:20px;color:#ffffff;">加盟咨询</span></p>
-		           <div style="width:94%;height:145px;background:#ffffff;border-radius:4px;">
-			             <div style="height:10px;"></div>
-			             <div style="margin-top:10px;">
-				                <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=11701679&amp;site=qq&amp;menu=yes" target="_blank">
-					                <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
-					                <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟1 </span>
-				                </a>
-			            </div>
-			           <div style="margin-top:10px;">
-			               	<a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2372993259&amp;site=qq&amp;menu=yes" target="_blank">
-					               <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
-					               <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟2 </span>
-				              </a>
-			          </div>
-			         <div style="margin-top:10px;">
-				           <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3504405624&amp;site=qq&amp;menu=yes" target="_blank">
-					            <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
-					            <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟3 </span>
-				           </a>
-			         </div>
-			         <div style="margin-top:10px;">
-				           <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3402383262&amp;site=qq&amp;menu=yes" target="_blank">
-					           <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
-					           <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟4 </span>
-				          </a>
-			        </div>
-		        </div>
-	        </div>
+              <p><span style="font-size:20px;color:#ffffff;">加盟咨询</span></p>
+              <div style="width:94%;height:145px;background:#ffffff;border-radius:4px;">
+                  <div style="height:10px;"></div>
+                  <div style="margin-top:10px;">
+                       <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=11701679&amp;site=qq&amp;menu=yes" target="_blank">
+                         <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                         <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟1 </span>
+                       </a>
+                 </div>
+                <div style="margin-top:10px;">
+                     <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2372993259&amp;site=qq&amp;menu=yes" target="_blank">
+                        <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                        <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟2 </span>
+                     </a>
+               </div>
+              <div style="margin-top:10px;">
+                  <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3504405624&amp;site=qq&amp;menu=yes" target="_blank">
+                     <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                     <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟3 </span>
+                  </a>
+              </div>
+              <div style="margin-top:10px;">
+                  <a title="加盟1" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3402383262&amp;site=qq&amp;menu=yes" target="_blank">
+                    <img style="vertical-align:middle;" src="../img/qq.png" width="20px">
+                    <span style="font-size:16px;color:#1c561b;vertical-align:middle;"> 代理加盟4 </span>
+                 </a>
+             </div>
+           </div>
+         </div>
       </div>
       <!-- 意见反馈 -->
       <div class="float_box position_right" style="margin-top:150px;" id="yjfk">
-	        <a href="adviance.php">
-		         <img src="../img/意见反馈.png" alt="" width="" height="">
-	        </a>
+         <a href="adviance.php">
+            <img src="../img/意见反馈.png" alt="" width="" height="">
+         </a>
      </div>
      <!-- 膜法微商 -->
      <div class="float_box position_right" style="margin-top: 230px; display: block;" id="code">
-	       <a href="javascript:">
-		        <img src="../img/膜法微商.png" alt="" width="" height="">
-	       </a>
+        <a href="javascript:">
+           <img src="../img/膜法微商.png" alt="" width="" height="">
+        </a>
      </div>
      <div class="float_box position_right" style=" display:none;margin-top: 126px; margin-right: 24px; " id="coded">
         <a href="javascript:">
@@ -498,9 +477,6 @@
      </div>
 
 
-
-
-    <!--页面结尾  -->
      </div>
 
 
@@ -512,9 +488,9 @@
 
 
 
-     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-     <script type="text/javascript" src="../js/remove_all_goods.js" ></script>
-     <script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="../js/pwd_reminder.js" ></script> -->
+    <script type="text/javascript" src="../js/remove_all_goods.js" ></script>
      <script type="text/javascript">
 
 

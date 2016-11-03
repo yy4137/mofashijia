@@ -1,7 +1,7 @@
 <?php
 
     $name = $_POST["user_name"];
-    $email = $_POST["E-mail"];
+    $email = $_POST["E_mail"];
     $pwd = $_POST["user_pwd"];
     $cpwd = $_POST["confirm_pwd"];
     $acode = $_POST["auth_code"];
